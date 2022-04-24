@@ -2,7 +2,7 @@
   <main>
     <section class="self-center flex flex-col flex-1 items-center justify-center">
       <h1 class="title text-center">{{ about.title }}</h1>
-      <nuxt-content :document="about.content" />
+      <nuxt-content :document="about" />
     </section>
   </main>
 </template>

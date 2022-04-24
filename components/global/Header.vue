@@ -10,6 +10,11 @@
       <li class="flex-1 ml-2">
         <nuxt-link
         class="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+         to="/about">About</nuxt-link>
+      </li>
+      <li class="flex-1 ml-2">
+        <nuxt-link
+        class="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
          to="/blog">Blog</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
