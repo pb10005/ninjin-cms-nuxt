@@ -39,6 +39,18 @@ collections:
               pattern: ['^[a-z]{2}([-])?([A-Za-z]{2})?$', 'Must match "xx" or "xx-XX" syntax (ex. "en" or "sv-SE")'],
             }
           # - { label: Site Email, name: siteemail, widget: string, required: false }
+  - name: 'about'
+    label: 'About'
+    files:
+      - label: 'About'
+        name: 'about'
+        file: 'content/about/about.md'
+        format: 'frontmatter'
+        editor:
+          preview: true
+        fields:
+          - { label: Title, name: title, widget: 'string', hint: 'The title of this page' }
+          - { label: Content, name: content, widget: 'markdown', hint: 'Description' }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
