@@ -50,7 +50,7 @@ collections:
           preview: true
         fields:
           - { label: Title, name: title, widget: 'string', hint: 'The title of this page' }
-          - { label: Content, name: content, widget: 'markdown', hint: 'Description' }
+          - { label: Content, name: body, widget: 'markdown', hint: 'Description' }
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
