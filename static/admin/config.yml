@@ -44,7 +44,6 @@ collections:
     files:
       - label: 'About'
         name: 'about'
-        file: 'content/about/about.md'
         format: 'frontmatter'
         editor:
           preview: true
