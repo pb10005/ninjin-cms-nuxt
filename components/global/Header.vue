@@ -1,14 +1,21 @@
 <template>
-  <nav class="scrim-bg fixed z-40 top-0 inset-x-0 pt-3 px-3" aria-label="Main Menu">
+  <nav class="w-full dark:bg-black dark:text-white flex flex-col md:flex-row items-center md:justify-between px-6 py-4 border-b border-b-gray-60 shadow-sm max-w-screen-2xl mx-auto"
+    >
     <ul class="flex">
       <li class="flex-1">
-        <nuxt-link class="btn block" to="/">Home</nuxt-link>
+        <nuxt-link
+        class="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+        to="/">Home</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/blog">Blog</nuxt-link>
+        <nuxt-link
+        class="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+         to="/blog">Blog</nuxt-link>
       </li>
       <li class="flex-1 ml-2">
-        <nuxt-link class="btn block" to="/projects">Projects</nuxt-link>
+        <nuxt-link
+        class="font-semibold tracking-tight block cursor-pointer p-2 hover:text-blue-500 transition-colors duration-300"
+        to="/projects">Projects</nuxt-link>
       </li>
     </ul>
   </nav>
